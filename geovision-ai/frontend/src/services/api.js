@@ -1,11 +1,12 @@
-// API Client for GeoVision AI Backend
+﻿// API Client for GeoVision AI Backend
 
 // Vercel production uses the same domain for frontend and backend.
 // Local development uses the Vite proxy.
 
-export const BASE_URL = import.meta.env.DEV
-  ? import.meta.env.VITE_API_BASE_URL || ""
-  : "";
+export const BASE_URL = (import.meta.env.VITE_API_BASE_URL || "").replace(
+  /\/+$/,
+  "",
+);
 
 // =====================================================
 // BASIC API OPERATIONS
