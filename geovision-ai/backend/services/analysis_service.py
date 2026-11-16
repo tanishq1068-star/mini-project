@@ -39,7 +39,16 @@ class AnalysisService:
         self.history = self._load_history()
 
         # Load default forest scenario on startup so application has immediate rich data
-        self.load_sample("forest")
+        try:
+            self.load_sample("forest")
+        except Exception as e:
+            print(f"Warning loading sample on startup: {e}. Generating datasets...")
+            try:
+                from services.sample_generator import generate_demonstration_datasets
+                generate_demonstration_datasets(self.sample_dir)
+                self.load_sample("forest")
+            except Exception as e2:
+                print(f"Fallback sample generation error: {e2}")
 
     def _load_history(self):
         if os.path.exists(self.history_file):
@@ -73,7 +82,7 @@ class AnalysisService:
         except Exception as e:
             print(f"Error saving history: {e}")
 
-    def load_sample(self, scenario: str = "forest"):
+    def load_sample(self, scenario: str = "forest", save_history: bool = False):
         """Loads a pre-generated demonstration scenario (forest or water)."""
         if scenario == "water":
             t1_path = os.path.join(self.sample_dir, "water", "water_2020_t1.tif")
@@ -136,7 +145,7 @@ class AnalysisService:
             "pdf_report_path": None
         }
 
-        self.analyze_all()
+        self.analyze_all(save_history=save_history)
         return self.get_summary()
 
     def set_custom_images(self, file1_bytes, file1_name, file2_bytes, file2_name,
@@ -188,7 +197,7 @@ class AnalysisService:
             "pdf_report_path": None
         }
 
-        self.analyze_all()
+        self.analyze_all(save_history=save_history)
         return self.get_summary()
 
     def load_sentinel_scenes(self, scene1_id: str, scene2_id: str, date1: str, date2: str,
@@ -249,10 +258,10 @@ class AnalysisService:
             "pdf_report_path": None
         }
 
-        self.analyze_all()
+        self.analyze_all(save_history=save_history)
         return self.get_summary()
 
-    def analyze_all(self):
+    def analyze_all(self, save_history: bool = True):
         """Runs the complete suite of deforestation, water, change detection, LULC, and hotspot algorithms."""
         c1 = self.current_session.get("container1")
         c2 = self.current_session.get("container2")
@@ -275,10 +284,11 @@ class AnalysisService:
         # 2. Trigger Autonomous Environmental Alert Check with Localized Hotspots
         self.alert_service.evaluate_analysis_for_alerts(self.current_session)
 
-        # 3. Persistent History Snapshot in SQLite & JSON
-        self.history_service.save_record(self.current_session)
-        self.history.append(self.current_session)
-        self._save_history()
+        # 3. Persistent History Snapshot in SQLite & JSON (only when requested)
+        if save_history:
+            self.history_service.save_record(self.current_session)
+            self.history.append(self.current_session)
+            self._save_history()
 
     def analyze_aoi(self, polygon_coords: list):
         """Performs change detection strictly within a custom user-drawn AOI polygon."""

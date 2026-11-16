@@ -19,7 +19,8 @@ import {
   FolderClock,
   ShieldCheck,
   Grid,
-  AlertTriangle
+  AlertTriangle,
+  Bot
 } from 'lucide-react';
 
 export default function Sidebar({
@@ -31,6 +32,7 @@ export default function Sidebar({
 }) {
   const navItems = [
     { id: 'dashboard', path: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
+    { id: 'ai-assistant', path: '/ai-assistant', label: 'AI Satellite Assistant', icon: Bot, badge: 'AI Agent', highlight: true },
     { id: 'satellite-explorer', path: '/satellite-explorer', label: 'Satellite Data Explorer', icon: Compass, badge: 'Live', highlight: true },
     { id: 'comparison-slider', path: '/comparison-slider', label: 'Before & After Comparison', icon: MoveHorizontal, badge: 'Interactive' },
     { id: 'satellite-imagery', path: '/satellite-imagery', label: 'Satellite Imagery', icon: Satellite },

@@ -5,13 +5,42 @@ from pydantic import BaseModel, Field
 from typing import Optional, List, Dict, Any
 
 from services.analysis_service import AnalysisService
+from services.chatbot_service import SatelliteChatbotService
 
 router = APIRouter()
 
-# Initialize service
+# Initialize service with resilient path resolution across monorepo & Render root directories
+def _resolve_dir(candidates, fallback):
+    for c in candidates:
+        if os.path.exists(c):
+            return os.path.abspath(c)
+    os.makedirs(fallback, exist_ok=True)
+    return os.path.abspath(fallback)
+
+_backend_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+_repo_dir = os.path.abspath(os.path.join(_backend_dir, ".."))
+
+_sample_candidates = [
+    os.path.join(_backend_dir, "sample_data"),
+    os.path.join(_repo_dir, "sample_data"),
+    os.path.join(os.getcwd(), "sample_data"),
+]
+_reports_candidates = [
+    os.path.join(_backend_dir, "reports"),
+    os.path.join(_repo_dir, "reports"),
+    os.path.join(os.getcwd(), "reports"),
+]
+
+sample_dir_resolved = _resolve_dir(_sample_candidates, os.path.join(_backend_dir, "sample_data"))
+reports_dir_resolved = _resolve_dir(_reports_candidates, os.path.join(_backend_dir, "reports"))
+
 analysis_service = AnalysisService(
-    sample_dir=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "sample_data")),
-    reports_dir=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "reports"))
+    sample_dir=sample_dir_resolved,
+    reports_dir=reports_dir_resolved
+)
+
+chatbot_service = SatelliteChatbotService(
+    reports_dir=reports_dir_resolved
 )
 
 
@@ -86,6 +115,17 @@ class HistorySaveRequest(BaseModel):
 class HistoryCompareRequest(BaseModel):
     id1: str
     id2: str
+
+
+class ChatbotQueryRequest(BaseModel):
+    query: str
+    session_id: Optional[str] = None
+    session_data: Optional[Dict[str, Any]] = None
+    chat_history: Optional[List[Dict[str, str]]] = None
+
+
+class ChatbotReportRequest(BaseModel):
+    session_id: str
 
 
 # Existing & Enhanced Endpoints
@@ -416,9 +456,22 @@ def compare_analysis_sessions(req: HistoryCompareRequest):
         raise HTTPException(status_code=400, detail=str(e))
 
 
+def _safe_read_upload(upload_file: UploadFile) -> bytes:
+    """Reads uploaded file bytes synchronously from underlying file pointer without threadpool deadlocks."""
+    if hasattr(upload_file, "file") and upload_file.file is not None:
+        try:
+            upload_file.file.seek(0)
+        except Exception:
+            pass
+        data = upload_file.file.read()
+        if isinstance(data, (bytes, bytearray)):
+            return bytes(data)
+    return b""
+
+
 # Core & Image Upload Endpoints
 @router.post("/upload-images")
-async def upload_images(
+def upload_images(
     earlier_image: UploadFile = File(...),
     later_image: UploadFile = File(...),
     date_earlier: str = Form(...),
@@ -436,8 +489,8 @@ async def upload_images(
         raise HTTPException(status_code=400, detail=f"Later image format '{ext2}' is unsupported.")
 
     try:
-        content1 = await earlier_image.read()
-        content2 = await later_image.read()
+        content1 = _safe_read_upload(earlier_image)
+        content2 = _safe_read_upload(later_image)
 
         summary = analysis_service.set_custom_images(
             file1_bytes=content1,
@@ -504,6 +557,8 @@ def generate_report():
 def download_report(filename: str):
     file_path = os.path.join(analysis_service.reports_dir, filename)
     if not os.path.exists(file_path):
+        file_path = os.path.join(chatbot_service.reports_dir, filename)
+    if not os.path.exists(file_path):
         raise HTTPException(status_code=404, detail="Requested report not found.")
     return FileResponse(
         path=file_path,
@@ -511,3 +566,153 @@ def download_report(filename: str):
         filename=filename,
         headers={"Content-Disposition": f'attachment; filename="{filename}"'}
     )
+
+
+# =========================================================================
+# AI SATELLITE IMAGE ANALYSIS CHATBOT ENDPOINTS
+# =========================================================================
+@router.post("/chatbot/analyze-single")
+def chatbot_analyze_single_image(
+    image: UploadFile = File(...),
+    region_name: Optional[str] = Form(None)
+):
+    """
+    Analyzes a single uploaded satellite image for the AI Assistant.
+    Validates file formats (PNG, JPG, JPEG, TIFF, GeoTIFF).
+    Computes vegetation index (NDVI / VARI), 5-class LULC, suspicious clearing clusters,
+    and visual overlays.
+    """
+    allowed_exts = [".png", ".jpg", ".jpeg", ".tif", ".tiff", ".geotiff"]
+    ext = os.path.splitext(image.filename)[1].lower()
+    if ext not in allowed_exts:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unsupported format '{ext}'. Please upload PNG, JPG, JPEG, TIFF, or GeoTIFF."
+        )
+
+    try:
+        content = _safe_read_upload(image)
+        result = chatbot_service.analyze_single_image(
+            file_bytes=content,
+            filename=image.filename,
+            region_name=region_name
+        )
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Single satellite image analysis failed: {str(e)}")
+
+
+@router.post("/chatbot/analyze-dual")
+def chatbot_analyze_dual_images(
+    image_a: UploadFile = File(...),
+    image_b: UploadFile = File(...),
+    date_a: Optional[str] = Form("Baseline"),
+    date_b: Optional[str] = Form("Recent"),
+    region_name: Optional[str] = Form(None)
+):
+    """
+    Compares two multi-temporal satellite images for the AI Assistant.
+    Aligns both observations, computes verified vegetation loss and water shifts,
+    and outputs comparison slider visualizations and difference heatmaps.
+    """
+    allowed_exts = [".png", ".jpg", ".jpeg", ".tif", ".tiff", ".geotiff"]
+    ext_a = os.path.splitext(image_a.filename)[1].lower()
+    ext_b = os.path.splitext(image_b.filename)[1].lower()
+
+    if ext_a not in allowed_exts:
+        raise HTTPException(status_code=400, detail=f"Image A format '{ext_a}' is unsupported.")
+    if ext_b not in allowed_exts:
+        raise HTTPException(status_code=400, detail=f"Image B format '{ext_b}' is unsupported.")
+
+    try:
+        content_a = _safe_read_upload(image_a)
+        content_b = _safe_read_upload(image_b)
+
+        result = chatbot_service.analyze_dual_images(
+            file_a_bytes=content_a,
+            file_a_name=image_a.filename,
+            file_b_bytes=content_b,
+            file_b_name=image_b.filename,
+            date_a=date_a,
+            date_b=date_b,
+            region_name=region_name
+        )
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Multi-temporal dual image analysis failed: {str(e)}")
+
+
+@router.post("/chatbot/chat")
+def chatbot_chat_query(req: ChatbotQueryRequest):
+    """
+    Answers natural language questions strictly grounded in the uploaded satellite image analysis.
+    """
+    try:
+        session = req.session_data
+        if not session and req.session_id:
+            session = chatbot_service.active_sessions.get(req.session_id)
+
+        response = chatbot_service.answer_query(
+            user_query=req.query,
+            session_data=session,
+            chat_history=req.chat_history
+        )
+        return response
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Chatbot reasoning error: {str(e)}")
+
+
+@router.post("/chatbot/generate-report")
+def chatbot_generate_report(req: ChatbotReportRequest):
+    """
+    Generates a downloadable PDF assessment report for the active AI Assistant session.
+    """
+    try:
+        report_path, filename = chatbot_service.generate_pdf_report(req.session_id)
+        return {
+            "status": "success",
+            "message": "AI Assistant Assessment Report created successfully.",
+            "filename": filename,
+            "download_url": f"/api/download-report/{filename}"
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to generate AI Assistant report: {str(e)}")
+
+
+@router.post("/chatbot/sample/{scenario}")
+def chatbot_load_sample_scenario(scenario: str):
+    """
+    Loads pre-packaged demonstration satellite data into the AI Assistant for one-click testing.
+    Scenarios: 'forest' (Deforestation study) or 'water' (Water depletion study).
+    """
+    if scenario not in ["forest", "water"]:
+        raise HTTPException(status_code=400, detail="Choose either 'forest' or 'water'.")
+
+    try:
+        if scenario == "water":
+            p1 = os.path.join(sample_dir_resolved, "water", "water_2020_t1.tif")
+            p2 = os.path.join(sample_dir_resolved, "water", "water_2024_t2.tif")
+            d1, d2 = "2020-03-10", "2024-04-18"
+            rname = "Bakhtegan-Tashk Salt Lake Basin"
+        else:
+            p1 = os.path.join(sample_dir_resolved, "forest", "forest_2021_t1.tif")
+            p2 = os.path.join(sample_dir_resolved, "forest", "forest_2024_t2.tif")
+            d1, d2 = "2021-06-15", "2024-07-20"
+            rname = "Western Ghats Tropical Moist Biosphere"
+
+        with open(p1, "rb") as f1, open(p2, "rb") as f2:
+            b1 = f1.read()
+            b2 = f2.read()
+
+        result = chatbot_service.analyze_dual_images(
+            file_a_bytes=b1,
+            file_a_name=os.path.basename(p1),
+            file_b_bytes=b2,
+            file_b_name=os.path.basename(p2),
+            date_a=d1,
+            date_b=d2,
+            region_name=rname
+        )
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to load sample {scenario}: {str(e)}")

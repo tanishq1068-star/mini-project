@@ -11,6 +11,7 @@ import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 
 import Dashboard from './pages/Dashboard';
+import AIAssistant from './pages/AIAssistant';
 import SatelliteDataExplorer from './pages/SatelliteDataExplorer';
 import ComparisonSliderPage from './pages/ComparisonSliderPage';
 import SatelliteImagery from './pages/SatelliteImagery';
@@ -32,12 +33,14 @@ import {
   fetchCurrentResults,
   loadSampleScenario,
   generatePdfReport,
-  runChangeDetection
+  runChangeDetection,
+  BASE_URL
 } from './services/api';
 
 // Canonical URL Route Mapping
 export const ROUTE_MAP = {
   'dashboard': '/dashboard',
+  'ai-assistant': '/ai-assistant',
   'satellite-explorer': '/satellite-explorer',
   'comparison-slider': '/comparison-slider',
   'satellite-imagery': '/satellite-imagery',
@@ -64,6 +67,7 @@ export function getTabFromUrl() {
 
   if (target.includes('multi-year')) return 'multi-year';
   if (target.includes('lulc')) return 'lulc';
+  if (target.includes('assistant') || target.includes('chatbot') || target.includes('ai-assistant')) return 'ai-assistant';
   if (target.includes('explorer') || target.includes('satellite-explorer')) return 'satellite-explorer';
   if (target.includes('comparison') || target.includes('slider')) return 'comparison-slider';
   if (target.includes('imagery') || target.includes('satellite-imagery')) return 'satellite-imagery';
@@ -121,6 +125,7 @@ export default function App() {
   // Tab titles lookup
   const tabTitles = {
     'dashboard': 'Executive Environmental Dashboard',
+    'ai-assistant': 'GeoVision AI Satellite Image Analysis Chatbot',
     'satellite-explorer': 'Copernicus Sentinel-2 Data Explorer',
     'comparison-slider': 'Before & After Satellite Comparison Slider',
     'satellite-imagery': 'Satellite Imagery Management & Ingestion',
@@ -149,7 +154,7 @@ export default function App() {
         setCurrentSession(data);
       } catch (err) {
         console.error('Error loading initial session:', err);
-        setError('Could not connect to GeoVision AI backend. Ensure backend server is running on port 8000.');
+        setError(`Could not connect to GeoVision AI backend (${BASE_URL || 'http://127.0.0.1:8000'}). Please verify the backend service is active.`);
       } finally {
         setLoading(false);
       }
@@ -317,6 +322,13 @@ export default function App() {
                   currentSession={currentSession}
                   setActiveTab={setActiveTab}
                   onLoadSample={handleLoadSample}
+                />
+              )}
+
+              {activeTab === 'ai-assistant' && (
+                <AIAssistant
+                  currentSession={currentSession}
+                  setActiveTab={setActiveTab}
                 />
               )}
 

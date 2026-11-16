@@ -1,0 +1,39 @@
+services:
+  # =========================================================================
+  # 1. GEOVISION AI - BACKEND FASTAPI WEB SERVICE
+  # =========================================================================
+  - type: web
+    name: geovision-ai-backend
+    runtime: python
+    rootDir: geovision-ai/backend
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    plan: free
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: HOST
+        value: 0.0.0.0
+      - key: ALLOWED_ORIGINS
+        value: https://geovision-ai-frontend-pragya.onrender.com,http://localhost:5173
+      - key: MPLCONFIGDIR
+        value: /tmp/matplotlib_cache
+    healthCheckPath: /health
+
+  # =========================================================================
+  # 2. GEOVISION AI - FRONTEND REACT / VITE STATIC SITE
+  # =========================================================================
+  - type: static
+    name: geovision-ai-frontend
+    rootDir: geovision-ai/frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_BASE_URL
+        value: https://mini-project-9rmu.onrender.com
+      - key: VITE_API_URL
+        value: https://mini-project-9rmu.onrender.com
