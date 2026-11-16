@@ -1,0 +1,1833 @@
+[
+  {
+    "id": "ALT-F0897E",
+    "timestamp": "2026-11-16T12:19:29.162115",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-5CFEA7",
+    "timestamp": "2026-11-16T12:19:13.574622",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-72506A",
+    "timestamp": "2026-11-16T12:19:02.290085",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-2B94B8",
+    "timestamp": "2026-11-16T12:18:53.415988",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-55B379",
+    "timestamp": "2026-11-16T12:13:58.468837",
+    "region_name": "Bakhtegan-Tashk Salt Lake Basin (Demonstration Scenario)",
+    "coordinates": [
+      29.465,
+      53.575
+    ],
+    "event_type": "Severe Water Desiccation",
+    "severity": "CRITICAL",
+    "message": "Significant reservoir depletion: 522.84 ha water lost (-59.47%).",
+    "metrics": {
+      "water_loss_ha": 522.84,
+      "loss_pct": 59.47,
+      "threshold_exceeded": "Critical Threshold (18.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Severe shoreline retreat detected."
+  },
+  {
+    "id": "ALT-EEF4A3",
+    "timestamp": "2026-11-16T12:13:58.001346",
+    "region_name": "Bakhtegan-Tashk Salt Lake Basin (Demonstration Scenario)",
+    "coordinates": [
+      29.465,
+      53.575
+    ],
+    "event_type": "Severe Water Desiccation",
+    "severity": "CRITICAL",
+    "message": "Significant reservoir depletion: 522.84 ha water lost (-59.47%).",
+    "metrics": {
+      "water_loss_ha": 522.84,
+      "loss_pct": 59.47,
+      "threshold_exceeded": "Critical Threshold (18.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Severe shoreline retreat detected."
+  },
+  {
+    "id": "ALT-4B12F0",
+    "timestamp": "2026-11-16T12:13:57.618340",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-007F16",
+    "timestamp": "2026-11-16T12:13:57.243746",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-139992",
+    "timestamp": "2026-11-16T12:13:49.163664",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-C491E6",
+    "timestamp": "2026-11-16T12:13:44.107800",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-F0C4FB",
+    "timestamp": "2026-11-16T12:13:27.268084",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-7CD428",
+    "timestamp": "2026-11-16T12:10:32.529254",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-FBEB94",
+    "timestamp": "2026-11-16T12:10:26.338121",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-CF230E",
+    "timestamp": "2026-11-16T12:10:16.870444",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-DDA277",
+    "timestamp": "2026-11-16T12:09:57.179675",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-77AA77",
+    "timestamp": "2026-11-16T12:09:49.029199",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-126642",
+    "timestamp": "2026-11-16T12:09:11.279986",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-FA5B39",
+    "timestamp": "2026-11-16T12:05:53.941057",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-04B077",
+    "timestamp": "2026-11-16T12:05:39.336286",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-E72474",
+    "timestamp": "2026-11-16T12:05:39.042275",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-26B889",
+    "timestamp": "2026-11-16T12:02:20.638258",
+    "region_name": "Bakhtegan-Tashk Salt Lake Basin (Demonstration Scenario)",
+    "coordinates": [
+      29.465,
+      53.575
+    ],
+    "event_type": "Severe Water Desiccation",
+    "severity": "CRITICAL",
+    "message": "Significant reservoir depletion: 522.84 ha water lost (-59.47%).",
+    "metrics": {
+      "water_loss_ha": 522.84,
+      "loss_pct": 59.47,
+      "threshold_exceeded": "Critical Threshold (18.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Severe shoreline retreat detected."
+  },
+  {
+    "id": "ALT-FB2CB2",
+    "timestamp": "2026-11-16T12:02:20.148760",
+    "region_name": "Bakhtegan-Tashk Salt Lake Basin (Demonstration Scenario)",
+    "coordinates": [
+      29.465,
+      53.575
+    ],
+    "event_type": "Severe Water Desiccation",
+    "severity": "CRITICAL",
+    "message": "Significant reservoir depletion: 522.84 ha water lost (-59.47%).",
+    "metrics": {
+      "water_loss_ha": 522.84,
+      "loss_pct": 59.47,
+      "threshold_exceeded": "Critical Threshold (18.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Severe shoreline retreat detected."
+  },
+  {
+    "id": "ALT-BD55F5",
+    "timestamp": "2026-11-16T12:02:19.751439",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-91D428",
+    "timestamp": "2026-11-16T12:02:19.399929",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-5B6481",
+    "timestamp": "2026-11-16T12:02:15.045043",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-4A3E52",
+    "timestamp": "2026-11-16T12:02:03.892340",
+    "region_name": "Bakhtegan-Tashk Salt Lake Basin (Demonstration Scenario)",
+    "coordinates": [
+      29.465,
+      53.575
+    ],
+    "event_type": "Severe Water Desiccation",
+    "severity": "CRITICAL",
+    "message": "Significant reservoir depletion: 522.84 ha water lost (-59.47%).",
+    "metrics": {
+      "water_loss_ha": 522.84,
+      "loss_pct": 59.47,
+      "threshold_exceeded": "Critical Threshold (18.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Severe shoreline retreat detected."
+  },
+  {
+    "id": "ALT-F37D53",
+    "timestamp": "2026-11-16T12:02:03.488756",
+    "region_name": "Bakhtegan-Tashk Salt Lake Basin (Demonstration Scenario)",
+    "coordinates": [
+      29.465,
+      53.575
+    ],
+    "event_type": "Severe Water Desiccation",
+    "severity": "CRITICAL",
+    "message": "Significant reservoir depletion: 522.84 ha water lost (-59.47%).",
+    "metrics": {
+      "water_loss_ha": 522.84,
+      "loss_pct": 59.47,
+      "threshold_exceeded": "Critical Threshold (18.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Severe shoreline retreat detected."
+  },
+  {
+    "id": "ALT-02A740",
+    "timestamp": "2026-11-16T12:02:03.142715",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-67C05E",
+    "timestamp": "2026-11-16T12:02:02.812118",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-D3B3C3",
+    "timestamp": "2026-11-16T12:01:59.500423",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-2A3CA2",
+    "timestamp": "2026-11-16T12:01:30.832614",
+    "region_name": "Bakhtegan-Tashk Salt Lake Basin (Demonstration Scenario)",
+    "coordinates": [
+      29.465,
+      53.575
+    ],
+    "event_type": "Severe Water Desiccation",
+    "severity": "CRITICAL",
+    "message": "Significant reservoir depletion: 522.84 ha water lost (-59.47%).",
+    "metrics": {
+      "water_loss_ha": 522.84,
+      "loss_pct": 59.47,
+      "threshold_exceeded": "Critical Threshold (18.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Severe shoreline retreat detected."
+  },
+  {
+    "id": "ALT-88A00F",
+    "timestamp": "2026-11-16T12:01:30.456852",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-9629CD",
+    "timestamp": "2026-11-16T12:01:30.113881",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-59E8BA",
+    "timestamp": "2026-11-16T12:01:23.700380",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-00974B",
+    "timestamp": "2026-11-16T12:01:16.966300",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-8CFFB6",
+    "timestamp": "2026-11-16T12:01:16.646364",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-F472FF",
+    "timestamp": "2026-11-16T12:01:13.227296",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-6F4326",
+    "timestamp": "2026-11-16T12:00:05.421052",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-70C43B",
+    "timestamp": "2026-11-16T11:59:27.287248",
+    "region_name": "Western Ghats Eco-Corridor, India",
+    "coordinates": [
+      16.343400000000003,
+      78.1622
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2024-12-23 to 2024-12-23 analysis."
+  },
+  {
+    "id": "ALT-6D674E",
+    "timestamp": "2026-11-16T11:51:47.787167",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-F9EA26",
+    "timestamp": "2026-11-16T11:51:36.958754",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-898235",
+    "timestamp": "2026-11-16T11:51:00.795443",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-AF555C",
+    "timestamp": "2026-11-16T11:51:00.419811",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-HOTSPOT-WTR-HS-01",
+    "timestamp": "2026-11-16T11:50:52.512373",
+    "region_name": "Bakhtegan-Tashk Salt Lake Basin (Demonstration Scenario) (WTR-HS-01)",
+    "coordinates": [
+      13.102,
+      80.2901
+    ],
+    "event_type": "Water Depletion Hotspot Cluster",
+    "severity": "CRITICAL",
+    "message": "Concentrated reservoir shoreline retreat: 522.84 ha desiccated waterbed.",
+    "metrics": {
+      "hotspot_id": "WTR-HS-01",
+      "water_loss_ha": 522.84,
+      "loss_pct": 109.3,
+      "threshold_exceeded": "High Severity Water Depletion (>30 ha)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (NDWI Shoreline Differencing)",
+    "acknowledged_by": null,
+    "notes": "Severe reservoir shrinkage / exposed dry lakebed"
+  },
+  {
+    "id": "ALT-75CF57",
+    "timestamp": "2026-11-16T11:50:52.512358",
+    "region_name": "Bakhtegan-Tashk Salt Lake Basin (Demonstration Scenario)",
+    "coordinates": [
+      29.465,
+      53.575
+    ],
+    "event_type": "Severe Water Desiccation",
+    "severity": "CRITICAL",
+    "message": "Significant reservoir depletion: 522.84 ha water lost (-59.47%).",
+    "metrics": {
+      "water_loss_ha": 522.84,
+      "loss_pct": 59.47,
+      "threshold_exceeded": "Critical Threshold (18.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Severe shoreline retreat detected."
+  },
+  {
+    "id": "ALT-DC0604",
+    "timestamp": "2026-11-16T11:50:52.120757",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-9DF782",
+    "timestamp": "2026-11-16T11:50:43.987211",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-0FADA2",
+    "timestamp": "2026-11-16T11:50:36.085933",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-BB090D",
+    "timestamp": "2026-11-16T11:50:19.518893",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-6C052B",
+    "timestamp": "2026-11-16T11:50:00.107579",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-0F9D9A",
+    "timestamp": "2026-11-16T11:49:50.617507",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-8A5D29",
+    "timestamp": "2026-11-16T11:49:33.614139",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-1B7F1A",
+    "timestamp": "2026-11-16T11:49:20.283532",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-HOTSPOT-DEF-HS-01",
+    "timestamp": "2026-11-16T11:49:06.525439",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario) (DEF-HS-01)",
+    "coordinates": [
+      13.107,
+      80.2817
+    ],
+    "event_type": "Deforestation Hotspot Cluster",
+    "severity": "CRITICAL",
+    "message": "Localized severe canopy clearance: 209.82 ha concentrated loss (mean \u0394NDVI -1.0323).",
+    "metrics": {
+      "hotspot_id": "DEF-HS-01",
+      "canopy_loss_ha": 209.82,
+      "loss_pct": 125.9,
+      "threshold_exceeded": "High Severity Cluster Threshold (>35 ha)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Spatial Density Analysis)",
+    "acknowledged_by": null,
+    "notes": "Severe illegal canopy clearance or intensive logging event"
+  },
+  {
+    "id": "ALT-HOTSPOT-DEF-HS-03",
+    "timestamp": "2026-11-16T11:49:06.525427",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario) (DEF-HS-03)",
+    "coordinates": [
+      13.0958,
+      80.2989
+    ],
+    "event_type": "Deforestation Hotspot Cluster",
+    "severity": "CRITICAL",
+    "message": "Localized severe canopy clearance: 312.26 ha concentrated loss (mean \u0394NDVI -1.0327).",
+    "metrics": {
+      "hotspot_id": "DEF-HS-03",
+      "canopy_loss_ha": 312.26,
+      "loss_pct": 125.8,
+      "threshold_exceeded": "High Severity Cluster Threshold (>35 ha)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Spatial Density Analysis)",
+    "acknowledged_by": null,
+    "notes": "Severe illegal canopy clearance or intensive logging event"
+  },
+  {
+    "id": "ALT-990FFB",
+    "timestamp": "2026-11-16T11:49:06.525408",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-2618E5",
+    "timestamp": "2026-11-16T11:48:48.827690",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-F9F109",
+    "timestamp": "2026-11-16T11:48:26.326086",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-5A1174",
+    "timestamp": "2026-11-16T11:48:02.992807",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-250528",
+    "timestamp": "2026-11-16T11:47:34.066236",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-33317D",
+    "timestamp": "2026-11-16T11:47:13.445503",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-D09B87",
+    "timestamp": "2026-11-16T11:43:46.628455",
+    "region_name": "Western Ghats Eco-Corridor, India",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-3AB3DA",
+    "timestamp": "2026-11-16T11:43:46.264167",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-43A0E1",
+    "timestamp": "2026-11-16T11:42:01.945798",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-7D0A7C",
+    "timestamp": "2026-11-16T11:41:56.935479",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-159475",
+    "timestamp": "2026-11-16T11:40:16.863157",
+    "region_name": "Western Ghats Eco-Corridor",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-0B3ABE",
+    "timestamp": "2026-11-16T11:40:16.547829",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-B01A4B",
+    "timestamp": "2026-11-16T11:40:07.567912",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-8E8B6A",
+    "timestamp": "2026-11-16T11:33:25.565366",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-1F00D6",
+    "timestamp": "2026-11-16T11:30:26.921695",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Acknowledged",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": "Senior Remote Sensing Engineer",
+    "notes": "Verified ground radar imagery.",
+    "acknowledged_at": "2026-11-16T11:30:27.104568"
+  },
+  {
+    "id": "ALT-F71F90",
+    "timestamp": "2026-11-16T11:30:05.658473",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-D9C697",
+    "timestamp": "2026-11-16T11:29:51.966400",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-297BEE",
+    "timestamp": "2026-11-16T11:29:46.845703",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-2F7B3C",
+    "timestamp": "2026-11-16T11:29:27.000151",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-59D8E0",
+    "timestamp": "2026-11-16T11:29:22.201331",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-A38706",
+    "timestamp": "2026-11-16T11:29:05.003544",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-29E3E3",
+    "timestamp": "2026-11-16T11:29:00.167060",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-1EC0E4",
+    "timestamp": "2026-11-16T11:28:52.221205",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-DE6CC3",
+    "timestamp": "2026-11-16T11:28:46.990271",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-553EB1",
+    "timestamp": "2026-11-16T11:26:56.616786",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-99A4D3",
+    "timestamp": "2026-11-16T11:26:52.521007",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-633501",
+    "timestamp": "2026-11-16T11:26:35.196572",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-3CEAD5",
+    "timestamp": "2026-11-16T11:19:51.556558",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-7394BB",
+    "timestamp": "2026-11-16T11:19:43.061819",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-0A4FD0",
+    "timestamp": "2026-11-16T11:19:14.570898",
+    "region_name": "Western Ghats Tropical Moist Biosphere (Demonstration Scenario)",
+    "coordinates": [
+      12.265,
+      75.91499999999999
+    ],
+    "event_type": "Rapid Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Critical canopy reduction: 660.68 ha deforested (26.53% of baseline).",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 26.53,
+      "threshold_exceeded": "Critical Threshold (12.0%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Detected during 2021-06-15 to 2024-07-20 analysis."
+  },
+  {
+    "id": "ALT-2024-001",
+    "timestamp": "2024-07-20T10:15:00",
+    "region_name": "Western Ghats Eco-Corridor, India",
+    "coordinates": [
+      12.265,
+      75.915
+    ],
+    "event_type": "Deforestation Event",
+    "severity": "CRITICAL",
+    "message": "Severe canopy clearance detected: 660.68 ha deforested across logging corridor sector.",
+    "metrics": {
+      "canopy_loss_ha": 660.68,
+      "loss_pct": 28.59,
+      "threshold_exceeded": "Forest Loss Critical Threshold (12%)"
+    },
+    "status": "Active",
+    "verification": "Automatically Detected (Pending Ground-Truth)",
+    "acknowledged_by": null,
+    "notes": "Automated Sentinel-2 L2A differencing trigger."
+  },
+  {
+    "id": "ALT-2024-002",
+    "timestamp": "2024-04-18T08:30:00",
+    "region_name": "Bakhtegan-Tashk Salt Lake Basin",
+    "coordinates": [
+      29.465,
+      53.575
+    ],
+    "event_type": "Water Desiccation Event",
+    "severity": "CRITICAL",
+    "message": "Dramatic reservoir shrinkage: 64.92% surface water reduction; exposed saline lakebed.",
+    "metrics": {
+      "water_loss_ha": 648.5,
+      "loss_pct": 64.92,
+      "threshold_exceeded": "Water Desiccation Critical Threshold (18%)"
+    },
+    "status": "Acknowledged",
+    "verification": "Independently Verified (Copernicus Drought Observatory)",
+    "acknowledged_by": "Senior GIS Specialist",
+    "notes": "Corroborated by regional hydrological drought reports."
+  }
+]
